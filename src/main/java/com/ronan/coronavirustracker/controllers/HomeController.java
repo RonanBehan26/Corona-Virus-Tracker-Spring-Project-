@@ -12,7 +12,7 @@ import java.util.List;
 @Controller
 public class HomeController {
 
-    @Autowired
+    @Autowired //this allows us access to the coronaVirusDataService class
     CoronaVirusDataService coronaVirusDataService;
 
     @GetMapping("/")
