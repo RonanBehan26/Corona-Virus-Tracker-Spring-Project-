@@ -10,6 +10,8 @@ public class CoronavirusTrackerApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CoronavirusTrackerApplication.class, args);
+
+		System.out.println("Hello World");
 	}
 
 }
